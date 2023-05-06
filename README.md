@@ -5,7 +5,7 @@ At the time this dataset was compiled in April-May 2023, all of the data could b
 
 Each file is a tab-separated .tsv document consisting of eight data columns. First is the name of the location represented in the record; second is its street address; third is the city or postal town designation of the location; fourth is the location's ZIP code. Fifth is the taxpayer ID of the business or entity responsible for the location, and this designation can be used to search for other locations belonging to the same entity through the "Taxpayer ID" field on the TCPA website (https://mycpa.cpa.state.tx.us/staxpayersearch/). Sixth is a sequential number distinguishing different locations operated by the same entity from one another. Seventh is the date on which the entity began paying sales taxes at the location; eighth is the date on which it stopped doing so. In most cases, these dates match up with the opening and closing dates of the business.
 
-Because there are millions of records in this dataset, the data has been split into 51 .tsv files, each one representing a ZIP-3 region of the state of Texas. To find a particular location, download the file named for the first three digits of the location's ZIP code. Below is a table explaining the contents of each file.
+Because there are millions of records in this dataset, the data has been split into 51 .tsv files, each one representing a ZIP-3 region of the state of Texas. To find a particular location, download the file named for the first three digits of the location's ZIP code. Below is a table explaining the contents of each file, and a map depicting the approximate locations of each file's contents.
 
 | File | Largest city | Other major cities | Population | Entries |
 | --- | --- | --- | --- | --- |
@@ -60,3 +60,5 @@ Because there are millions of records in this dataset, the data has been split i
 | 798 | San Elizario | Alpine, Anthony, Canutillo, Clint, Fabens, Marfa, Presidio, Tornillo | 70,252 | 15,484 |
 | 799 | El Paso | Fort Bliss, Horizon City, Socorro | 812,205 | 148,279 |
 | 999 | Texhoma | data errors | 33 | 86 |
+
+![Map of Texas ZIP-3 regions](https://raw.githubusercontent.com/reschultzed/texas-salestax/main/tx-texas-zip-code-map.png)

@@ -9,7 +9,7 @@ Because there are millions of records in this dataset, the data has been split i
 
 | File | Largest city | Other major cities | Population | Entries |
 | --- | --- | --- | --- | --- |
-| 750 | Plano | Allen, Carrollton, Frisco, Garland, Grand Prairie, Irving, Lewisville, McKinney, Richardson | 2,561,000 | 510,737 |
+| 750 | Plano | Allen, Carrollton, Denison, Frisco, Garland, Grand Prairie, Irving, Lewisville, McKinney, Richardson, Sherman | 2,561,000 | 510,737 |
 | 751 | Mesquite | Corsicana, Duncanville, Forney, Waxahachie | 883,030 | 177,768 |
 | 752 | Dallas |  | 1,375,223 | 420,067 |
 | 753 | none |  | 0 | 482 |
